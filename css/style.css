@@ -10,34 +10,113 @@
     background-color: #373738;
     padding: 15px;
     height: 120px;
-  }
-  
-  .logo {
-    width: 120px; /* Adjust the width of the logo container */
-  }
-  
-  .logo img {
+}
+
+.logo {
+    width: 120px;
+    /* Adjust the width of the logo container */
+}
+
+.logo img {
     max-width: 100%;
     height: auto;
-  }
-  
-  nav {
+}
+
+nav {
     flex-grow: 1;
     /* Additional styles for navigation links */
-  }
-  
+}
+
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.hero-image {
+    background-image: url('your-hero-image.jpg');
+    background-size: cover;
+    height: 300px;
+    /* Adjust the height as needed */
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills-section {
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    box-sizing: content-box; /* Add this property to adjust the box model */
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card-frame {
+    background-color: #000;
+    /* Black background for the frame */
+    border: 2px solid #7ca6ca;
+    /* Outer frame border for the group of cards */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 10px;
+}
+
+.card {
+    width: 350px; 
+    height: auto; 
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+    /* White background for individual cards */
+    border: 2px solid #fff;
+    /* White border for individual cards */
+}
+
+.card img {
+    width: 100%;
+    /* Make the image fill the card width */
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.card p {
+    margin: 0;
+}
 
 
 .flexContainer {
     display: flex;
     flex-direction: row;
     align-items: right;
-    margin-left: auto ;
+    margin-left: auto;
 }
-.flexContainer > div {
+
+.flexContainer>div {
     padding: 20px;
     margin: 20px;
-  
+
 }
 
 
@@ -55,9 +134,9 @@
     display: grid;
     grid-template-rows: 300px 300px;
     grid-template-columns: 400px 400px 400px;
-    grid-template-areas: 
-    "item1 item2 item2"
-    "item3 item4 item4";
+    grid-template-areas:
+        "item1 item2 item2"
+        "item3 item4 item4";
 }
 
 .item1 {
@@ -75,26 +154,31 @@
 .item4 {
     grid-area: item4;
 }
+
 .view-all-button {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-  }
-  
-  .view-all-button a {
+}
+
+.view-all-button a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff; /* Customize the background color */
-    color: white; /* Customize the text color */
+    background-color: #007bff;
+    /* Customize the background color */
+    color: white;
+    /* Customize the text color */
     border-radius: 5px;
     text-decoration: none;
-    transition: background-color 0.3s ease; /* Add a smooth transition effect */
-  }
-  
-  .view-all-button a:hover {
-    background-color: #0056b3; /* Darker shade on hover */
-  }
+    transition: background-color 0.3s ease;
+    /* Add a smooth transition effect */
+}
+
+.view-all-button a:hover {
+    background-color: #0056b3;
+    /* Darker shade on hover */
+}
 
 nav ul {
     width: 60%;
@@ -119,16 +203,17 @@ nav ul li {
 .content {
     width: 500px;
     margin: 0 auto;
+    color: #fff;
 }
 
-.content p, 
+.content p,
 .content button {
-    font-family: 'Georgia', serif; 
+    font-family: 'Georgia', serif;
 }
 
 footer {
     background-color: #373738;
-    padding: 60px 0; 
+    padding: 60px 0;
     color: #ECF0F1;
 }
 
@@ -150,7 +235,7 @@ footer ul li {
         flex-direction: column;
     }
 
-    .flexContainer > div {
+    .flexContainer>div {
         width: 100%;
     }
 
@@ -159,12 +244,12 @@ footer ul li {
         display: grid;
         grid-template-rows: 300px 300px 300px 300px;
         grid-template-columns: 1fr;
-        grid-template-areas: 
-        "item1" 
-        "item2"
-        "item3" 
-        "item4";
+        grid-template-areas:
+            "item1"
+            "item2"
+            "item3"
+            "item4";
     }
 
 
-  }
+}

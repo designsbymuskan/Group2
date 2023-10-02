@@ -59,7 +59,7 @@ body {
     text-align: center;
     color: #fff;
     padding: 20px;
-    box-sizing: content-box; /* Add this property to adjust the box model */
+    box-sizing: content-box; 
 }
 
 .card-container {
@@ -95,7 +95,6 @@ body {
 
 .card img {
     width: 100%;
-    /* Make the image fill the card width */
 }
 
 .card h3 {
@@ -127,7 +126,7 @@ body {
 }
 
 .myWork {
-    padding: 100px;
+    padding: 50px;
     margin: 20px;
 }
 
@@ -175,7 +174,6 @@ body {
 .view-all-button a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff;
     /* Customize the background color */
     color: white;
     /* Customize the text color */
@@ -203,13 +201,13 @@ nav ul li {
 /* styles.css */
 .heroImg {
     position: relative;
-    height: 720px; /* Set the desired height for the section */
+    height: 720px; 
 }
 
 .background-image {
     background: url('../images/guitar.jpeg') no-repeat center center;
     background-size: cover;
-    height: 80%; /* Set the background image to cover the entire section */
+    height: 80%; 
     position: absolute;
     top: 0;
     left: 0;
@@ -222,7 +220,7 @@ nav ul li {
     text-align: center;
     top: 80%; 
     padding: 40px;
-    position: relative; /* This ensures the content appears below the background image */
+    position: relative; 
 }
 
 .content p {
@@ -230,7 +228,7 @@ nav ul li {
 }
 
 .heading {
-    color: B79157;
+    color: #B79157;
 }
 
 .content p,
@@ -238,21 +236,53 @@ nav ul li {
     font-family: 'Georgia', serif;
 }
 
+/* styles.css */
+.above-footer {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+}
+
+.above-footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left; 
+}
+
+.above-footer h2 {
+    text-align: left;
+    font-size: 24px;
+    margin: 20px 0 10px; 
+}
+
+.above-footer p {
+    font-size: 16px;
+    margin: 0 0 20px; 
+}
+
 footer {
-    background-color: #373738;
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+
+footer {
+    background-color: #000000;
     padding: 60px 0;
     color: #ECF0F1;
+    text-align: center;
 }
 
 footer ul {
-    display: inline-block;
+    display: contents;
     vertical-align: top;
 }
 
 
 footer ul li {
     padding: 0 5px;
-
 }
 
 
